@@ -3,7 +3,7 @@
 | NIM |  244107020023|
 | Nama |  Dewi Chalissa Rania |
 | Kelas | TI - 1I |
-| Repository | [link] (https://github.com/jti-polinema/-01-contoh-laporan-react) |
+| Repository | [link] (https://github.com/ichaxpro/Algoritma-dan-Struktur-Data.git) |
 
 # Labs #1 Programming Fundamentals Review
 
