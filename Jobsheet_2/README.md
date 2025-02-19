@@ -43,13 +43,26 @@ The name of object in experiment 2 is student1
 2. We can acces attributes or method of an object by calling it after object. For example, student1 as object and print() as method, we can acces it by doing student1.print();  
 3. Because in the second calls to print(), we have called the method of changeClass and updateGPA. So, that's why the output is different.
 
+## 2.3 Experiment 3 Solution
+### 2.3.2 Verification Experiment Result
+The solution is implemented in studentMain08.java, and below is screenshot of the result.
+
+![Screenshot](../Jobsheet_2/img/verification3.png)
+
+### 2.3.3 Question
+*Brief explanaton:* 
+1. ![Screenshot](../Jobsheet_2/img/soal1_experiment2.png)
+The name of object in experiment 2 is student1
+2. We can acces attributes or method of an object by calling it after object. For example, student1 as object and print() as method, we can acces it by doing student1.print();  
+3. Because in the second calls to print(), we have called the method of changeClass and updateGPA. So, that's why the output is different.
+
 ## 2.3 Experiment 2 Solution
 ### 2.3.2 Verification Experiment Result
 The solution is implemented in studentMain08.java, and below is screenshot of the result.
 
 ![Screenshot](../Jobsheet_2/img/verification3.png)
 
-### 2.2.3 Question
+### 2.3.3 Question
 *Brief explanaton:* 
 1. ![Screenshot](../Jobsheet_2/img/soal1_experiment3.png)
 
