@@ -74,3 +74,8 @@ The solution is implemented in studentMain08.java, and below is screenshot of th
 3. The studentMain08 file will be error because there is an instantiation of object without parameter. This happens because when we remove the default constructor from the Student class, Java no longer provides an implicit no-argument constructor. Therefore, every object instantiation must explicitly pass the required parameters. If an object is created without parameters, the program will fail to compile.
 4. After instantiating an object, methods do not have to be accessed in order. They can be called in any sequence as per the program's needs.
 5. ![Screenshot](../Jobsheet_2/img/soal5_experiment3.png)
+
+## 2.4 Assignments
+### 2.4.1 Assignment 1 (student08.java)
+There are 
+

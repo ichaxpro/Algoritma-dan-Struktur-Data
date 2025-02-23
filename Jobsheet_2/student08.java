@@ -26,11 +26,11 @@ public class student08 {
   }
 
   void updateGPA(double newGPA) { 
-      if (gpa >=0.0 && gpa <=4.0){
-        gpa = newGPA;
-      }else{
-        System.out.println("Invalid IPK. Must be between 0.0 and 4.0 ");
-      }
+    if (newGPA >= 0.0 && newGPA <= 4.0) {  // ✅ Cek newGPA, bukan gpa lama
+      gpa = newGPA;
+  } else {
+      System.out.println("Invalid IPK. Must be between 0.0 and 4.0");
+  }
   }
 
   String evaluate() {
