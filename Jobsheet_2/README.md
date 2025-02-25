@@ -76,6 +76,41 @@ The solution is implemented in studentMain08.java, and below is screenshot of th
 5. ![Screenshot](../Jobsheet_2/img/soal5_experiment3.png)
 
 ## 2.4 Assignments
-### 2.4.1 Assignment 1 (student08.java)
-There are 
+### 2.4.1 Assignment 1 
+this is the implementation from assignment1.java and assignment1Main.java
+![Screenshot](../Jobsheet_2/img/assigment1_jobsheet2.png)
+This code defines **two classes**:  
+
+1. **`assignment1`** (main class)  
+   - Stores course information: `courseID`, `name`, `credit`, `hour`.  
+   - Has **two constructors** (default and with parameters).  
+   - Methods:  
+     - `print()`: Displays course details.  
+     - `changeCredit(int newCredit)`: Changes the credit value.  
+     - `addHour(int hours)`: Adds course hours with validation.  
+     - `reduceHour(int reduces)`: Reduces course hours with validation.  
+
+2. **`assignment1Main`** (execution class)  
+   - Creates two objects (`course1` and `course2`).  
+   - Sets and displays course information.  
+   - Modifies hours and credits using the provided methods.  
+
+### 2.4.2 Assignment 2
+This is the implementation of lecturer08.java and lecturer08Main.java
+![Screenshot](../Jobsheet_2/img/assignment2_jobsheet2.png)
+This code defines **two classes**:  
+
+1. **`lecturer08` (Main Class)**  
+   - Stores lecturer details (`ID`, `name`, `status`, `startYear`, `expertise`).  
+   - Methods:  
+     - `print()`: Displays details.  
+     - `setStatus()`: Updates status.  
+     - `calculateTenure()`: Calculates years of service.  
+     - `changeExpertiseField()`: Updates expertise.  
+
+2. **`lecturer08Main` (Execution Class)**  
+   - Creates and modifies lecturer objects.  
+   - Updates expertise and status.  
+   - Calculates and prints tenure.  
+
 
