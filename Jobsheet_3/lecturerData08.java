@@ -14,6 +14,7 @@ public class lecturerData08 {
         System.out.printf("| %-10s | %-20s | %-10s | %-5d |\n",
             lecturer.id, lecturer.name, (lecturer.gender ? "Male" : "Female"), lecturer.age);
       }
+      
 
       // Garis akhir tabel
       System.out.println("================================================================================");

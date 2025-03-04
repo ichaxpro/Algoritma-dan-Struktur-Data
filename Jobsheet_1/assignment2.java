@@ -34,7 +34,7 @@ public class assignment2 {
           break;
       }
     } while (input != 4);
-
+    sc.close();
   }
 
   static double volumeCubes(double side) {

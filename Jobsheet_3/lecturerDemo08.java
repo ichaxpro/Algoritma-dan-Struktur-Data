@@ -5,7 +5,6 @@ public class lecturerDemo08 {
   public static void main(String[] args) {
     Scanner sc = new Scanner (System.in);
     int inputMenu;
-    
         do {
           String mainMenu = ("Main Menu: \n"
               + "1. Input Data Lecturers\n"

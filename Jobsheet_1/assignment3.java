@@ -48,6 +48,7 @@ public class assignment3 {
 
       }
     } while (menuChoice != 6); // untuk menghentikan looping
+    sc.close();
   }
 
   static void inputCourse() {
