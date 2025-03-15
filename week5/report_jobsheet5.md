@@ -16,16 +16,16 @@ The solution is implemented in factorial.java and mainFactorial.java Below is sc
 ### 5.2.3 Question
 *Brief explanaton:* 
 1. if else in the code structure is a part of recursive function. Recursive function is a function that solves a problem by solving smalles instances of the same problem.
-- if : Base Case, a condition where the recursion function stop
-- else: Recursion, this is where the recursion function is placed  
+   - if : Base Case, a condition where the recursion function stop
+   - else: Recursion, this is where the recursion function is placed  
 2. Yes, it is possible, we can use loop while(condition). To implement this we can just change the form of for loop to while loop. it will be like this:
 int 
 ![Screenshot](../week5/img/question2_week5.png)
 3. The difference is method they used to solve the problem.
-- facto = facto * i; = using iterative approach that is usually used inside loop
-- int facto = n * factorialDC(n - 1); : Recursive Approach, this is used inside a recursive function.
+   - facto = facto * i; = using iterative approach that is usually used inside loop
+   - int facto = n * factorialDC(n - 1); : Recursive Approach, this is used inside a recursive function.
 4. - factorialBF(): using iterative approach that usually used by looping. This method updates a variable step by step until it reaches the desired factorial value.
-- factorialDC(): using recursive approach that usually used by recursive function. It called the function itself until the base case condition fullfiled.
+   - factorialDC(): using recursive approach that usually used by recursive function. It called the function itself until the base case condition fullfiled.
 
 
 ## 5.3 Calculating Exponentiation Using Brute Force and Divide and Conquer Algorithms
