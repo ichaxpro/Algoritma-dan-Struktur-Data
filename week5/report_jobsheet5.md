@@ -66,15 +66,23 @@ The solution is implemented in grades.java and gradesMain.java Here's the screen
 
 This code defines **three classes**:  
 
-1. **`gradesMain`** (main class)  
+1. **`studentMain`** (main class)  
    -  Acts as the main method.
    - Connect the data and method from class grades.
    - Display the data so that the user can see the the result of the method that we use in class grades, like the average score, maximum score, and minimum score
 
-2. **`lecturerData08`** (method)  
+2. **`studentData08`** (method)  
    - contains method that will be executed in main method
    - Methods include:
       - findMaxMidtermScore(): Find the maximum score of midterm test.
       - FindMinMidtermScore(): Find the minimum score of midterm test.
       - averageFinalScore(): Calculates the average grades of Final test.
    - Use the method divide and conquer to find the maximum and minimum score. Meanwhile we use method brute force to calculate the average score of final test.
+3. **`student`** (method)
+   - Represents a lecturer with attributes:
+      - id (String) → Unique student identifier.
+      - name (String) → Student’s name.
+      - year (String) → Year of their admission.
+      - midterm (int) → Midterm Exam Score.
+      - finalScore (int) → Final Exam Score.
+   - Contains a constructor to initialize lecturer objects.
